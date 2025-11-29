@@ -72,9 +72,9 @@ const sessionOptions = {
 };
 
 
- app.get("/", (req, res) => {
-     res.redirect("listings.ejs", { listings });
- });
+ // app.get("/", (req, res) => {
+ //    res.redirect("listings.ejs", { listings });
+ //});
 
 
 
