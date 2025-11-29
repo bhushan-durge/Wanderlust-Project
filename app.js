@@ -73,7 +73,7 @@ const sessionOptions = {
 
 
  app.get("/", (req, res) => {
-     res.redirect("index.ejs");
+     res.redirect("listings.ejs", { listings });
  });
 
 
